@@ -241,11 +241,15 @@ section{
 }
 .per-two{
   margin-top: 10%;
-  margin-right: 5%;
   background-position: bottom;
 }
-.ml-70{
-  margin-left: 70%;
+@media screen and (min-width:768px){
+  .per-two{
+      margin-right: 5%;
+  }
+  .ml-70{
+    margin-left: 70%;
+  }
 }
 .per-three{
   margin-top: 13%;
